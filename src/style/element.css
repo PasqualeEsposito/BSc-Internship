@@ -1,0 +1,11 @@
+.textCss {
+    color: white;
+    display: inline-block;
+    max-width: 100px;
+
+}
+
+.cardContainer:hover {
+    border: 3px solid white;
+    cursor: pointer;
+}

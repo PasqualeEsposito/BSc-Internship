@@ -1,0 +1,148 @@
+.image:hover {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.imageRule {
+    width: 100px;
+    padding: 1%;
+    background-color: #212529;
+    border-radius: 15px;
+}
+
+.showResult {
+    margin-bottom: 3%;
+}
+
+.hideResult {
+    margin-bottom: 3%;
+    display: none;
+}
+
+.modalImage {
+    width: 15%;
+    padding: 1%;
+    background-color: #212529;
+    border-radius: 15px;
+    margin-left: 5%;
+}
+
+.rules {
+    margin: auto;
+    padding: 10%;
+
+}
+
+.logos {
+    background-color: #212529;
+    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+    display: none;
+    height: 50em;
+    scrollbar-color: #212529 white;
+    scrollbar-width: thin;
+    text-align: center;
+}
+
+.rule {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.animateIn {
+    -webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 0.5s; /* Firefox < 16 */
+    -ms-animation: fadein 0.5s; /* Internet Explorer */
+    -o-animation: fadein 0.5s; /* Opera < 12.1 */
+    animation: fadein 0.5s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.animateOut {
+    -webkit-animation: fadeout ease 0.5s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadeout ease 0.5s; /* Firefox < 16 */
+    -ms-animation: fadeout ease 0.5s; /* Internet Explorer */
+    -o-animation: fadeout ease 0.5s; /* Opera < 12.1 */
+    animation: fadeout ease 0.5s;
+}
+
+@keyframes fadeout {
+    0% { opacity: 1; }
+    100%   { opacity: 0; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadeout {
+    0% { opacity: 1; }
+    100%   { opacity: 0; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadeout {
+    0% { opacity: 1; }
+    100%   { opacity: 0; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadeout {
+    0% { opacity: 1; }
+    100%   { opacity: 0; }
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+.scrollBar {
+    scrollbar-width: thin;
+    scrollbar-color: #212529 white;
+}
+
+/* Chrome, Edge, and Safari */
+.scrollBar::-webkit-scrollbar {
+    width: 10px;
+}
+
+.scrollBar::-webkit-scrollbar-track {
+    background: grey;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.scrollBar::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 10px;
+    border: 3px solid white;
+}
+
+.barStyling {
+    width: 20rem;
+    background: #F2F1F9;
+    border: none;
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin-top: 1%;
+}
